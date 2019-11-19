@@ -2,7 +2,8 @@
 
 Instructions
 
-#App Setup
+App Setup:
+
 Create a GitHub repo called burger and clone it to your computer.
 Make a package.json file by running npm init from the command line.
 Install the Express npm package: npm install express.
@@ -15,7 +16,8 @@ express
 
 
 
-#DB Setup
+DB Setup: 
+
 Inside your burger directory, create a folder named db.
 In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:
 Create the burgers_db.
@@ -24,6 +26,7 @@ Create a burgers table with these fields:
 id: an auto incrementing int that serves as the primary key.
 burger_name: a string.
 devoured: a boolean.
+
 Still in the db folder, create a seeds.sql file. In this file, write insert queries to populate the burgers table with at least three entries.
 Run the schema.sql and seeds.sql files into the mysql server from the command line
 Now you're going to run these SQL files.
@@ -35,7 +38,8 @@ Close out of the MySQL command line tool: exit.
 
 
 
-#Config Setup
+Config Setup:
+
 Inside your burger directory, create a folder named config.
 Create a connection.js file inside config directory.
 Inside the connection.js file, setup the code to connect Node to MySQL.
@@ -51,7 +55,7 @@ Export the ORM object in module.exports.
 
 
 
-#Model setup
+Model setup:
 
 Inside your burger directory, create a folder named models.
 In models, make a burger.js file.
@@ -61,7 +65,7 @@ Export at the end of the burger.js file.
 
 
 
-#Controller setup
+Controller setup:
 
 Inside your burger directory, create a folder named controllers.
 In controllers, create the burgers_controller.js file.
@@ -73,7 +77,7 @@ Create the router for the app, and export the router at the end of your file.
 
 
 
-#View setup
+View setup:
 
 Inside your burger directory, create a folder named views.
 
@@ -86,7 +90,8 @@ Create a button in index.handlebars that will submit the user input into the dat
 
 
 
-#Directory structure
+Directory structure:
+
 All the recommended files and directories from the steps above should look like the following structure:
 .
 ├── config
